@@ -12,6 +12,14 @@ int subs(int n,int m){
 int sum(int a,int b){
     return a + b;
 }
+int divi(int number1,int number2)
+{
+	if(number2 == 0) {
+		cout<<"division is impossible"<<endl;
+		return 0;
+	}
+	else return number1/number2;
+}
 
 int main()
 {
@@ -22,5 +30,6 @@ int main()
     cout<<"modulouos is : "<<mod(a,b)<<endl;
     cout<<"subtraction is : "<<subs(a,b)<<endl;
     cout<<"summation is : "<<sum(a,b)<<endl;
+    cout<<"division is : "<<divi(a,b)<<endl;
     return 0;
 }
