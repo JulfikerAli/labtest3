@@ -14,6 +14,7 @@ int sum(int a,int b){
 }
 int divi(int number1,int number2)
 {
+
 	if(number2 == 0) {
 		cout<<"division is impossible"<<endl;
 		return 0;
