@@ -9,6 +9,10 @@ int subs(int n,int m){
     return n-m;
 }
 
+int sum(int a,int b){
+    return a + b;
+}
+
 int main()
 {
     int a,b,mul;
@@ -17,5 +21,6 @@ int main()
     cout<<"multiplication is :"<<mul<<endl;
     cout<<"modulouos is : "<<mod(a,b)<<endl;
     cout<<"subtraction is : "<<subs(a,b)<<endl;
+    cout<<"subtraction is : "<<sum(a,b)<<endl;
     return 0;
 }
