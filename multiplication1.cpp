@@ -21,6 +21,6 @@ int main()
     cout<<"multiplication is :"<<mul<<endl;
     cout<<"modulouos is : "<<mod(a,b)<<endl;
     cout<<"subtraction is : "<<subs(a,b)<<endl;
-    cout<<"subtraction is : "<<sum(a,b)<<endl;
+    cout<<"summation is : "<<sum(a,b)<<endl;
     return 0;
 }
